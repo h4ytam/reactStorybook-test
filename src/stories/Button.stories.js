@@ -1,8 +1,5 @@
 import { Button } from "../components/Button";
 
-const someFunction = (someValue) => {
-  return `i am a ${someValue}`;
-};
 export default {
   title: "UI -",
   component: Button,
@@ -14,7 +11,7 @@ export default {
 
 const Template = (args) => <Button {...args} />;
 
-export const Default = Template.bind({});
-Default.args = {
+export const Primary = Template.bind({});
+Primary.args = {
   label: "ClickME!",
 };
